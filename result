@@ -1,0 +1,24 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.5, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/gredfix/hw-avito-3-testing
+plugins: Faker-6.6.0
+collecting ... collected 15 items
+
+issue-02/test_morse.py::test_decode[... --- ...-SOS] PASSED              [  6%]
+issue-02/test_morse.py::test_decode[-- .- ..-MAI] PASSED                 [ 13%]
+issue-02/test_morse.py::test_decode[.--. -.-- - .... --- -.-PYTHON] PASSED [ 20%]
+issue-03/one_hot_encoder_test.py::TestOneHot::test_empty PASSED          [ 26%]
+issue-03/one_hot_encoder_test.py::TestOneHot::test_list PASSED           [ 33%]
+issue-03/one_hot_encoder_test.py::TestOneHot::test_not_zero PASSED       [ 40%]
+issue-03/one_hot_encoder_test.py::TestOneHot::test_standart_work PASSED  [ 46%]
+issue-04/test_one_hot_encoder.py::test_standart_work PASSED              [ 53%]
+issue-04/test_one_hot_encoder.py::test_empty_list PASSED                 [ 60%]
+issue-04/test_one_hot_encoder.py::test_one_city PASSED                   [ 66%]
+issue-04/test_one_hot_encoder.py::test_empty PASSED                      [ 73%]
+issue-05/test_what_year_is_now.py::test_raises_value_error[2021_05-21T18:10Z] PASSED [ 80%]
+issue-05/test_what_year_is_now.py::test_date_time_format[2021-04-18T20:21Z-2021] PASSED [ 86%]
+issue-05/test_what_year_is_now.py::test_date_time_format[18.04.2021-2021] PASSED [ 93%]
+issue-05/test_what_year_is_now.py::test_foo PASSED                       [100%]
+
+============================== 15 passed in 0.10s ==============================
